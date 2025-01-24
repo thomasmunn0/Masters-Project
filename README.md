@@ -9,3 +9,7 @@ This is significantly more efficient and can be checked by comparing results wit
 
 The third model extends the second model by allowing us to change the coefficients in the objective function.
 To do this, we also need to check dual feasibility at each time step.
+
+The fourth model is the same as the second model, but it applies sundials to integrate continuously instead of using runge-kutta discretely.
+
+The fifth model is the same as the third model, but integrates continuously.
